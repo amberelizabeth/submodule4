@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    margin:0 auto;
+}
+
+button{
+    background-color: #094b3a;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    width: 100px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #62919c;
+    color: white;
+  }

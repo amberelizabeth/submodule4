@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function sumNumbers(){
+            var x = 0;
+            for(let i = 1; i <= 100; i++){
+                x += i;
+            }
+            document.getElementById("Sum").innerHTML = "The sum is: " + x;
+        }
+      </script>
+
+      <title>Module 1 - Mini Project 4</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Module 1 - Create a JS Function</h1>
+        <p>Calculate the sum of the numbers 1 to 100:</p>
+        <button type="button" onclick="sumNumbers()">Sum</button>
+        <h4 id="Sum"></h4>
+    </div>
+</body>
+</html>
